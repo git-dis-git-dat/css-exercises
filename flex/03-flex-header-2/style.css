@@ -49,11 +49,24 @@ ul {
 
 /* my solution */
 
-.header {
+.header { 
   display: flex;
+  justify-content: space-between;
+  
+}
+
+.left, .right {
+  display: flex;
+  gap: 16px;
+  margin: 8px;
+} 
+
+.right {
+  align-items: center;
 }
 
 ul {
   display: flex;
   padding: 0;
+  gap: 16px;
 }
