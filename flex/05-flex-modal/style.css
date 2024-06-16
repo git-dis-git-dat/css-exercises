@@ -71,42 +71,25 @@ button.cancel {
 
 /* my solution */
 
-.container {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.icon {
-  flex-shrink: .01;
-}
-
-.header, .lower-buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-weight: bold;
-  font-size: large;
-  justify-content: end;
-  
-}
-
 .modal {
+  display: flex;
   padding: 16px;
   gap: 16px;
 }
 
-.lower-buttons {
-  gap: 4px;
+.icon {
+  flex-shrink: 0;
 }
 
-.close-button  {
-  justify-self: right;
+.header {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+
