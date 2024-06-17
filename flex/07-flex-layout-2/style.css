@@ -27,3 +27,41 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*  */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+  align-content: flex-start;
+  flex-grow: 2;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 24px;
+}
+
+.card {
+  width: 300px;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  
+}
+
+
